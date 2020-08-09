@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+@media (min-width: 992px){
+  .pc {
+    width: 31.33%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .pad {
+    width: 47%;
+  }
+  .pad1 {
+    width: 97%;
+  }
+}
+div {
+  float: left;
+  border: 1px solid black;
+  margin: 1%;
+  background-color: grey;
+}
+p {
+  margin-bottom: 0;
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 0;
+  height: 5%;
+  float: right;
+  padding-right: 3%;
+  padding-left:  3%;
+}
+#no {
+  float: left;
+  width: 100%;
+  clear: both;
+  padding: 2%;
+  text-align: left;
+  border: 0;
+}
